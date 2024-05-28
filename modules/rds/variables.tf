@@ -1,7 +1,7 @@
 variable "db_identifier" {}
 variable "db_name" {}
 variable "db_engine_version" {
-	default = "16.0"
+	default = "14.0"
 }
 
 variable "db_username" {}
