@@ -1,6 +1,10 @@
 # S3 bucket details
-variable "bucket_prefix" {
-  description = "prefix for our bucket"
+variable "zonal_bucket_name" {
+  description = "if name is not specified default appears"
   type        = string
-  default     = "var-cicd-created-joachim-data-lake"
+  default     = "zonal-data-lake"
+}
+
+variable "regional_bucket" {
+  default = "regional-data-lake"
 }
